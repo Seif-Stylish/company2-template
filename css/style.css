@@ -1,0 +1,655 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1
+{
+    background-image: url(../images/slider/01.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 5;
+}
+.grayLayerSection1
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    z-index: -1;
+}
+.cosmix
+{
+    font-size: 18px;
+    line-height: 20px;
+}
+.section1h1
+{
+    font-size: 35px;
+    line-height: 1.1;
+    font-weight: 400;
+}
+.section1h2
+{
+    font-size: 67px;
+    font-weight: 600;
+}
+.sectionParCosmix
+{
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 27px;
+}
+.nextSlider
+{
+    right: 0;
+}
+.previousSlider
+{
+    left: 0;
+}
+.sliderIcon
+{
+    font-size: 20px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #e73131;
+    color: white;
+    transition: 0.3s;
+}
+.sliderIcon:hover
+{
+    color: #555;
+}
+.h2perSection
+{
+    color: #555;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.aboutUsSpanRed
+{
+    color: #e73131;
+}
+.redUnderline
+{
+    background-color: #e73131;
+    width: 120px;
+    height: 2px;
+}
+.loremParForSection
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    line-height: 25px;
+}
+.redL
+{
+    color: #e73131;
+}
+.weAreCreative
+{
+    color: #333;
+    font-size: 23px;
+    line-height: 1.1;
+}
+.aboutDownload
+{
+    background-color: #e73131;
+}
+.premiumH3
+{
+    font-size: 23px;
+    font-weight: bolder;
+}
+.downloadDiv
+{
+    justify-content: space-between;
+}
+.downloadButton
+{
+    border: solid 1px white;
+    color: white;
+    transition: 0.3s;
+}
+.downloadButton:hover
+{
+    background-color: white;
+    color: #e73131;
+    z-index: 500;
+}
+.section3Div h3
+{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #333;
+}
+.section3Div p
+{
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    line-height: 25px;
+}
+.section3Div i
+{
+    font-size: 24px;
+    border-radius: 50%;
+    color: #e73131;
+    border: 1px solid #d7d7d7;
+    transition: 0.3s;
+}
+.section3Div:hover i
+{
+    color: white;
+    background-color: #e73131;
+}
+.facilityCategory
+{
+    height: 20px;
+    background-color: #d7d7d7;
+    border-radius: 0;
+}
+.facilities .progress .progress-bar
+{
+    background-color: #e73131;
+}
+.position-relative .facilityPercentage
+{
+    right: 5%;
+    font-weight: 500;
+    font-size: 15px;
+}
+.facilityType
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: #666;
+    line-height: 1.4;
+}
+.featuresList
+{
+    list-style-type: none;
+}
+.featuresList li
+{
+    display: inline-block;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 26%);
+    border-right: 1px solid #e0e0e0;
+    border-radius: 0px;
+    padding: 20px 35px;
+    font-size: 26px;
+}
+.currentClass
+{
+    background-color: #fff;   
+    border-bottom: 1px solid #FFFFFF;
+    color: #555;
+    cursor: pointer;
+}
+.newClass
+{
+    border-bottom: 2px solid #e73131;
+    background: #f8f8f8;
+    color: #e73131;
+    cursor: default;
+    transition: 0.3s;
+}
+.featureTypeh5
+{
+    text-transform: capitalize;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.1;
+}
+.featureUnderline
+{
+    background-color: #e73131;
+    width: 90px;
+    height: 1px;
+}
+.featurePar
+{
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+    line-height: 25px;
+}
+.section5
+{
+    background-color: #f5f5f5;
+}
+.portfolioList
+{
+    list-style-type: none;
+}
+.portfolioList li
+{
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 7px 15px;
+    background: #e5e5e5;
+    color: #64686d;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.relativeLayer
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+.absoluteLayer i
+{
+    color: #e73131;
+    font-size: 25px;
+}
+.absoluteLayer h6
+{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.relativeLayer .absoluteLayer
+{
+    bottom: 50%;
+    transform: translateY(50%);
+}
+.portfolioDiv .blackLayer
+{
+    bottom: 0;
+    height: 60%;
+    opacity: 0;
+    transition: 0.3s;
+}
+.portfolioDiv:hover .blackLayer
+{
+    opacity: 1;
+}
+.priceDiv
+{
+    border: 1px solid #eee;
+    border-radius: 5px 5px 4px 4px;
+    transition: 0.3s;
+}
+.priceDiv:hover
+{
+    box-shadow: 0 8px 8px rgb(0 0 0 / 26%);
+}
+.priceH3
+{
+    font-size: 21px;
+    color: #444;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.grayDivPrice
+{
+    background: #f8f8f8;
+    border-radius: 4px 4px 0 0;
+    padding: 15px 15px 30px;
+}
+.redCircleDivPrice
+{
+    background-color: #e73131;
+    border-radius: 50%;
+    width: 105px;
+    height: 105px;
+}
+.grayDivPrice .redCircleDivPrice
+{
+    top: -30%;
+    transform: translateY(50%);
+    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid #f8f8f8;
+}
+.priceList
+{
+    list-style-type: none;
+}
+.priceList li
+{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.orderNowPriceButton
+{
+    font-size: 15px;
+    color: #e73131;
+    border: 2px solid #e73131;
+    background-color: white;
+    transition: 0.3s;  
+}
+.orderNowPriceButton:hover
+{
+    background-color: #e73131;
+    color: white;
+}
+.sliderLayerGray
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+}
+.sliderLayerGray .sliderLayerGrayChild
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.sliderLayerGray img
+{
+    z-index: 500;
+}
+.sliderLayerGray .nextPhoto
+{
+    top: 50%;
+    right: 5;
+    transform: translateY(-50%);
+    font-size: 32px;
+}
+.sliderLayerGray .previousPhoto
+{
+    top: 50%;
+    left: 5;
+    transform: translateY(-50%);
+    font-size: 32px;
+}
+.sliderLayerGray i
+{
+    cursor: pointer;
+}
+.teamMember:hover .teamMemberTextDiv
+{
+    border: none;
+}
+.teamMember
+{
+    transition: 0.3s;
+}
+.teamMember:hover
+{
+    box-shadow: 0 8px 8px rgb(0 0 0 / 26%);
+}
+.teamMemberTextDiv
+{
+    border: 0.1px solid rgb(196, 194, 194);
+}
+.teamMemberName
+{
+    color: #555;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    transition: 0.3s;
+}
+.teamMember:hover .teamMemberName
+{
+    color: #e73131;
+}
+.teamMemberParagraph
+{
+    font-size: 13px;
+    color: #666;
+    font-weight: bolder;
+    line-height: 25px;
+}
+.teamMemberTextDiv i
+{
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+}
+.section8
+{
+    background-image: url(../images/Testimonials/01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.testimonialDiv img
+{
+    border-radius: 50%;
+}
+.testimonialDiv h5
+{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.testimonialDiv h6
+{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.testimonialDiv p
+{
+    font-size: 13px;
+    line-height: 25px;
+}
+.testimonialSliderDiv
+{
+    background-color: #e73131;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.section9
+{
+    background-color: #f8f8f8;
+}
+.navBarBackgroundColor
+{
+    background-color: black;
+    transition: 0.3s;
+}
+.funFact h3 i
+{
+    color: #666;
+    font-size: 30px;
+}
+.funFact h3 span
+{
+    color: #e73131;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.funFact
+{
+    text-transform: capitalize;
+    color: #555;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 1.1;
+}
+.blogDiv
+{
+    transition: 0.3s;
+}
+.blogTextContent
+{
+    border: 0.1px solid rgb(196, 194, 194);
+    border-top: none;
+}
+.blogTextContent h5
+{
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.blogTextContent h5:hover
+{
+    color: #e73131;
+}
+.blogTextContent i
+{
+    color: #777;
+}
+.blogTextContent h6
+{
+    color: #777;
+}
+.blogTextContent p
+{
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    line-height: 25px;
+}
+.blogPhotoDiv .position-absolute
+{
+    top: 0;
+    left: 0;
+    background-color: #444;
+    font-size: 15px;
+}
+.blogDiv:hover .blogTextContent
+{
+    border: none;
+}
+.blogDiv:hover
+{
+    box-shadow: 0 8px 8px rgb(0 0 0 / 26%);
+}
+.contactInfo
+{
+    color: #555;
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.redContactUs
+{
+    color: #e73131;
+}
+.contactUsList
+{
+    list-style-type: none;
+}
+.contactUsList strong
+{
+    text-transform: uppercase;
+}
+.contactUsList i
+{
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #666;
+}
+.contactUsList strong
+{
+    font-weight: bolder;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.1;    
+}
+.contactUsList span
+{
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.contactUsDiv .row div .inputDiv input
+{
+    border: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    border-radius: 0;
+}
+.inputDiv textarea
+{
+    padding-bottom: 70px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: 0;
+}
+.sendNowButton
+{
+    background-color: white;
+    color: #e73131;
+    border: 2px solid #e73131;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.sendNowButton:hover
+{
+    background-color: #e73131;
+    color: white;
+}
+.lookingForwardToHearingFromYou
+{
+    background-color: #e73131;
+}
+.lookingForwardToHearingFromYou h2
+{
+    font-size: 25px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+footer h2
+{
+    color: #444;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+footer div i
+{
+    color: #999;
+    font-size: 22px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+footer div i:hover
+{
+    background-color: #e73131;
+    color: white;
+}
+.copyRightParagraph
+{
+    font-size: 13px;
+    color: #666;
+    font-weight: 500;
+    line-height: 25px;
+}
+.templateStock
+{
+    color: #337ab7;
+    text-decoration: none;
+    cursor: pointer;
+}
+.warningMessage
+{
+    color: #e73131;
+    font-size: 13px;
+    font-weight: 400;
+    display: none;
+}
